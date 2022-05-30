@@ -14,12 +14,10 @@
     * @return float 
  */
   
-
-  function suma ($num1, $num2) {
-      $resultadosuma = $num1 + $num2;
-      return $resultadosuma;
-
-  }
+ /* 
+ Elimino la antigua función suma
+ */
+ 
   
   function areacuadrado ($lado) 
   {
@@ -27,8 +25,7 @@
   	return $area;
   }
 
-$suma = suma (24,42);
-echo $suma;
+
 
 $areacuadrado = areacuadrado (5);
 echo $areacuadrado;
